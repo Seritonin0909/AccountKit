@@ -15,5 +15,13 @@
         <Grid Grid.Row="0">
             <TextBlock Text="开票统计工具" FontSize="25" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         </Grid>
+        <Border Grid.Row="1" BorderBrush="Black" BorderThickness="2" Margin="3">
+            <ScrollViewer>
+                
+            </ScrollViewer>
+        </Border>
+        <Grid Grid.Row="2">
+            
+        </Grid>
     </Grid>
 </Window>
