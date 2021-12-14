@@ -1,0 +1,15 @@
+D:\Project\AccountantKit\AccountantKit\bin\Debug\AccountantKit.exe.config
+D:\Project\AccountantKit\AccountantKit\bin\Debug\AccountantKit.exe
+D:\Project\AccountantKit\AccountantKit\bin\Debug\AccountantKit.pdb
+D:\Project\AccountantKit\AccountantKit\obj\Debug\AccountantKit.csproj.AssemblyReference.cache
+D:\Project\AccountantKit\AccountantKit\obj\Debug\MainWindow.g.cs
+D:\Project\AccountantKit\AccountantKit\obj\Debug\App.g.cs
+D:\Project\AccountantKit\AccountantKit\obj\Debug\AccountantKit_MarkupCompile.cache
+D:\Project\AccountantKit\AccountantKit\obj\Debug\AccountantKit_MarkupCompile.lref
+D:\Project\AccountantKit\AccountantKit\obj\Debug\MainWindow.baml
+D:\Project\AccountantKit\AccountantKit\obj\Debug\AccountantKit.g.resources
+D:\Project\AccountantKit\AccountantKit\obj\Debug\AccountantKit.Properties.Resources.resources
+D:\Project\AccountantKit\AccountantKit\obj\Debug\AccountantKit.csproj.GenerateResource.cache
+D:\Project\AccountantKit\AccountantKit\obj\Debug\AccountantKit.csproj.CoreCompileInputs.cache
+D:\Project\AccountantKit\AccountantKit\obj\Debug\AccountantKit.exe
+D:\Project\AccountantKit\AccountantKit\obj\Debug\AccountantKit.pdb
