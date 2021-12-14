@@ -21,4 +21,3 @@ D:\Project\AccountantKit\AccountantKit\bin\Debug\EntityFramework.xml
 D:\Project\AccountantKit\AccountantKit\bin\Debug\EntityFramework.SqlServer.xml
 D:\Project\AccountantKit\AccountantKit\bin\Debug\System.Data.SQLite.xml
 D:\Project\AccountantKit\AccountantKit\obj\Debug\AccountantKit.csproj.CopyComplete
-D:\Project\AccountantKit\AccountantKit\obj\Debug\AccountantKit.csproj.AssemblyReference.cache
