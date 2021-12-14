@@ -8,17 +8,29 @@ using System.Data.SQLite;
 
 namespace AccountantKit
 {
-    class SQLiteHelper
+    static class SQLiteHelper
     {
-        SQLiteConnection connection;
-        SQLiteCommand command;
-        SQLiteDataReader dataReader;
+        static SQLiteConnection connection;
+        static SQLiteCommand command;
+        static SQLiteDataReader dataReader;
 
-        public SQLiteHelper(string databaseName)
+        static SQLiteHelper()
         {
             try
             {
+                string databaseName = "AccountDB";
                 connection = new SQLiteConnection(databaseName);
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+        }
+
+        public static void OpenDataBase()
+        {
+            try
+            {
                 connection.Open();
             }
             catch (Exception e)
@@ -27,7 +39,7 @@ namespace AccountantKit
             }
         }
 
-        public SQLiteDataReader ExecuteCommand(string commandText)
+        public static SQLiteDataReader ExecuteCommand(string commandText)
         {
             try
             {

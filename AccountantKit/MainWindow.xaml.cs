@@ -25,9 +25,15 @@ namespace AccountantKit
             InitializeComponent();
         }
 
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            SQLiteHelper.OpenDataBase();
+        }
+
         private void AddButton_PreviewMouseDown(object sender, MouseButtonEventArgs e)
         {
-            stackPanelDisplayArea.Children.Add(new ListPanel());
+            
         }
+
     }
 }
