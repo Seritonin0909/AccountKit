@@ -16,18 +16,13 @@ using System.Windows.Shapes;
 namespace AccountantKit
 {
     /// <summary>
-    /// MainWindow.xaml 的交互逻辑
+    /// ListPanel.xaml 的交互逻辑
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class ListPanel : UserControl
     {
-        public MainWindow()
+        public ListPanel()
         {
             InitializeComponent();
-        }
-
-        private void AddButton_PreviewMouseDown(object sender, MouseButtonEventArgs e)
-        {
-            stackPanelDisplayArea.Children.Add(new ListPanel());
         }
     }
 }

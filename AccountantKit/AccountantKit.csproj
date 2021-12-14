@@ -74,7 +74,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ListPanel.xaml.cs">
+      <DependentUpon>ListPanel.xaml</DependentUpon>
+    </Compile>
     <Compile Include="SQLiteHelper.cs" />
+    <Page Include="ListPanel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
