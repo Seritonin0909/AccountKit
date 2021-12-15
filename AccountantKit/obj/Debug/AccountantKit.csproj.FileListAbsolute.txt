@@ -24,3 +24,6 @@ D:\Project\AccountantKit\AccountantKit\obj\Debug\AccountantKit.csproj.CopyComple
 D:\Project\AccountantKit\AccountantKit\obj\Debug\AccountantKit.csproj.AssemblyReference.cache
 D:\Project\AccountantKit\AccountantKit\obj\Debug\ListPanel.g.cs
 D:\Project\AccountantKit\AccountantKit\obj\Debug\ListPanel.baml
+D:\Project\AccountantKit\AccountantKit\obj\Debug\DataWindow.g.cs
+D:\Project\AccountantKit\AccountantKit\obj\Debug\App.baml
+D:\Project\AccountantKit\AccountantKit\obj\Debug\DataWindow.baml

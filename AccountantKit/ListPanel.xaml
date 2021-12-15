@@ -15,7 +15,8 @@
                 <ColumnDefinition/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            <TextBlock Grid.Column="0" FontSize="20" Text="企业名称" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <Image Source="Images/Account.png"/>
+            <TextBlock Grid.Column="1" FontSize="20" Text="企业名称" VerticalAlignment="Center" HorizontalAlignment="Center"  Style="{StaticResource titleTextStyle}"/>
         </Grid>
     </Border>
 </UserControl>

@@ -37,7 +37,7 @@ namespace AccountantKit
 
         private void AddButton_PreviewMouseDown(object sender, MouseButtonEventArgs e)
         {
-            
+            stackPanelDisplayArea.Children.Add(new ListPanel());
         }
 
     }

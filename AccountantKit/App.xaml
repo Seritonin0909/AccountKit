@@ -4,6 +4,11 @@
              xmlns:local="clr-namespace:AccountantKit"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <Style x:Key="titleTextStyle" TargetType="TextBlock">
+            
+        </Style>
+        <Style x:Key="contentTextStyle" TargetType="TextBlock">
+            
+        </Style>
     </Application.Resources>
 </Application>

@@ -18,7 +18,7 @@ namespace AccountantKit
         {
             try
             {
-                string databaseName = "AccountDB";
+                string databaseName = "data source=AccountDB.db";
                 connection = new SQLiteConnection(databaseName);
             }
             catch (Exception e)
