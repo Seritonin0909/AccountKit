@@ -30,6 +30,11 @@ namespace AccountantKit
             SQLiteHelper.OpenDataBase();
         }
 
+        private void LoadClientDataTable()
+        {
+            
+        }
+
         private void AddButton_PreviewMouseDown(object sender, MouseButtonEventArgs e)
         {
             
