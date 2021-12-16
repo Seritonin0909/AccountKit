@@ -5,7 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:AccountantKit"
              mc:Ignorable="d" 
-             d:DesignHeight="200" d:DesignWidth="800">
+             d:DesignHeight="100" d:DesignWidth="800">
     <Border BorderBrush="Gray" BorderThickness="2" Margin="1">
         <Grid>
             <Grid.ColumnDefinitions>
@@ -15,8 +15,9 @@
                 <ColumnDefinition/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            <Image Source="Images/Account.png"/>
-            <TextBlock Grid.Column="1" FontSize="20" Text="企业名称" VerticalAlignment="Center" HorizontalAlignment="Center"  Style="{StaticResource titleTextStyle}"/>
+            <Image Source="Images/Account.png" Grid.Column="0" Height="70"/>
+            <TextBlock x:Name="textBlockClientName" Grid.Column="1" FontSize="20" Text="企业名称" VerticalAlignment="Center" HorizontalAlignment="Center"  Style="{StaticResource titleLevel2Style}"/>
+            <Image x:Name="DeleteButton" Source="Images/Delete.png" Grid.Column="4" Height="40"/>
         </Grid>
     </Border>
 </UserControl>

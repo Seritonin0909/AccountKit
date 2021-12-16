@@ -4,11 +4,21 @@
              xmlns:local="clr-namespace:AccountantKit"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-        <Style x:Key="titleTextStyle" TargetType="TextBlock">
-            
+        <Style x:Key="titleLevel1Style" TargetType="TextBlock">
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+        </Style>
+        <Style x:Key="titleLevel2Style" TargetType="TextBlock">
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+        </Style>
+        <Style x:Key="titleLevel3Style" TargetType="TextBlock">
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
         </Style>
         <Style x:Key="contentTextStyle" TargetType="TextBlock">
-            
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
         </Style>
     </Application.Resources>
 </Application>

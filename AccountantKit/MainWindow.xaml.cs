@@ -30,14 +30,26 @@ namespace AccountantKit
             SQLiteHelper.OpenDataBase();
         }
 
-        private void LoadClientDataTable()
+        private List<string> LoadClientDataTable()
         {
-            
+            List<string> clientList = new List<string>();
+            SQLiteHelper.ExecuteCommand("SELECT DISTINCT ClientName FROM ClientData");
+            while (SQLiteHelper.dataReader.Read())
+            {
+                clientList.Add(SQLiteHelper.dataReader.GetString(0));
+            }
+            return clientList;
         }
 
         private void AddButton_PreviewMouseDown(object sender, MouseButtonEventArgs e)
         {
-            stackPanelDisplayArea.Children.Add(new ListPanel());
+            List<string> clientList = new List<string>();
+            clientList = LoadClientDataTable();
+            for (int i = 0; i < clientList.Count; i++)
+            {
+                stackPanelDisplayArea.Children.Add(new ListPanel(clientList[i]));
+            }
+            
         }
 
     }

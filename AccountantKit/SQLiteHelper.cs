@@ -12,7 +12,7 @@ namespace AccountantKit
     {
         static SQLiteConnection connection;
         static SQLiteCommand command;
-        static SQLiteDataReader dataReader;
+        public static SQLiteDataReader dataReader;
 
         static SQLiteHelper()
         {

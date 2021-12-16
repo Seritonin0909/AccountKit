@@ -7,6 +7,41 @@
         mc:Ignorable="d"
         Title="DataWindow" Height="450" Width="800">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="6*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="客户名称：" Grid.Column="0" Style="{StaticResource  titleLevel1Style}"/>
+            <TextBlock x:Name="textBlockClientName" Grid.Column="1" Style="{StaticResource titleLevel1Style}"/>
+        </Grid>
+        <Border Grid.Row="1" BorderBrush="Gray" BorderThickness="2" CornerRadius="5" Margin="3">
+            <Grid >
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition Height="5*"/>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Text="时间" Grid.Column="0" Style="{StaticResource titleLevel3Style}"/>
+                    <TextBlock Text="金额" Grid.Column="1" Style="{StaticResource titleLevel3Style}"/>
+                </Grid>
+                <Border Grid.Row="1" BorderBrush="Gray" BorderThickness="2" Margin="1">
+                    <ScrollViewer>
+                        <StackPanel x:Name="stackPanelClientData">
+                            
+                        </StackPanel>
+                    </ScrollViewer>
+                </Border>
+            </Grid>
+        </Border>
     </Grid>
 </Window>

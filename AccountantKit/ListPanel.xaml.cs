@@ -24,5 +24,12 @@ namespace AccountantKit
         {
             InitializeComponent();
         }
+
+        public ListPanel(string ClientName)
+        {
+            InitializeComponent();
+            textBlockClientName.Text = ClientName;
+        }
+
     }
 }
