@@ -47,9 +47,14 @@ namespace AccountantKit
             clientList = LoadClientDataTable();
             for (int i = 0; i < clientList.Count; i++)
             {
-                stackPanelDisplayArea.Children.Add(new ListPanel(clientList[i]));
+                stackPanelDisplayArea.Children.Add(new ListPanel(clientList[i],this));
             }
             
+        }
+
+        public void DeleteListPanel(ListPanel panel)
+        {
+            stackPanelDisplayArea.Children.Remove(panel);
         }
 
     }

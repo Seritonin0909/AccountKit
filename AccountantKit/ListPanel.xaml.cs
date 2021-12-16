@@ -20,16 +20,28 @@ namespace AccountantKit
     /// </summary>
     public partial class ListPanel : UserControl
     {
+        MainWindow owner;
+
         public ListPanel()
         {
             InitializeComponent();
         }
 
-        public ListPanel(string ClientName)
+        public ListPanel(string ClientName,MainWindow _owner)
         {
             InitializeComponent();
             textBlockClientName.Text = ClientName;
+            owner = _owner;
         }
 
+        private void ButtonAccountStatus_PreviewMouseDown(object sender, MouseButtonEventArgs e)
+        {
+            
+        }
+
+        private void ButtonDelete_PreviewMouseDown(object sender, MouseButtonEventArgs e)
+        {
+            owner.DeleteListPanel(this);
+        }
     }
 }

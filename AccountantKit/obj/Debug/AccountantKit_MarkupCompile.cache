@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 D:\Project\AccountantKit\AccountantKit\App.xaml
-3-876937688
+41524292690
 
-81937701038
+9299316022
 19829085136
-DataWindow.xaml;ListPanel.xaml;MainWindow.xaml;
+DataPanel.xaml;DataWindow.xaml;ListPanel.xaml;MainWindow.xaml;
 
-True
+False
 

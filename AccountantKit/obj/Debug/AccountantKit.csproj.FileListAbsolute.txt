@@ -27,3 +27,5 @@ D:\Project\AccountantKit\AccountantKit\obj\Debug\ListPanel.baml
 D:\Project\AccountantKit\AccountantKit\obj\Debug\DataWindow.g.cs
 D:\Project\AccountantKit\AccountantKit\obj\Debug\App.baml
 D:\Project\AccountantKit\AccountantKit\obj\Debug\DataWindow.baml
+D:\Project\AccountantKit\AccountantKit\obj\Debug\DataPanel.g.cs
+D:\Project\AccountantKit\AccountantKit\obj\Debug\DataPanel.baml
