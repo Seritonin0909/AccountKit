@@ -86,7 +86,7 @@ namespace AccountantKit
             SQLiteHelper.ExecuteCommand(command);
             while (SQLiteHelper.dataReader.Read())
             {
-                _dateList.Add(SQLiteHelper.dataReader.GetString(0));
+                _dateList.Add(SQLiteHelper.dataReader.GetString(0).Substring(0,7));
                 _moneyList.Add(SQLiteHelper.dataReader.GetDouble(1).ToString());
             }
         }
