@@ -28,28 +28,23 @@ namespace AccountantKit
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             SQLiteHelper.OpenDataBase();
+            LoadClientDataTable();
         }
 
-        private List<string> LoadClientDataTable()
+        private void LoadClientDataTable()
         {
             List<string> clientList = new List<string>();
-            SQLiteHelper.ExecuteCommand("SELECT DISTINCT ClientName FROM ClientData");
-            while (SQLiteHelper.dataReader.Read())
+            clientList = SQLiteHelper.ReadDistinctClientNameFormCLientData();
+            for (int i = 0; i < clientList.Count; i++)
             {
-                clientList.Add(SQLiteHelper.dataReader.GetString(0));
+                stackPanelDisplayArea.Children.Add(new ListPanel(clientList[i], this));
             }
-            return clientList;
+
         }
 
         private void AddButton_PreviewMouseDown(object sender, MouseButtonEventArgs e)
         {
-            List<string> clientList = new List<string>();
-            clientList = LoadClientDataTable();
-            for (int i = 0; i < clientList.Count; i++)
-            {
-                stackPanelDisplayArea.Children.Add(new ListPanel(clientList[i],this));
-            }
-            
+
         }
 
         public void DeleteListPanel(ListPanel panel)

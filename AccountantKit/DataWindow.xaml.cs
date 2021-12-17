@@ -35,23 +35,10 @@ namespace AccountantKit
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            List<string> dateList = new List<string>();
-            List<string> moneyList = new List<string>();
-            string clientNameInCommand = "\"" + clientName + "\"";
+            List<string> dateList;
+            List<string> moneyList;
 
-            string commandForDate = string.Format("SELECT Date FROM ClientData WHERE ClientName = {0}", clientNameInCommand);
-            SQLiteHelper.ExecuteCommand(commandForDate);
-            while (SQLiteHelper.dataReader.Read())
-            {
-                dateList.Add(SQLiteHelper.dataReader.GetString(0));
-            }
-
-            string commandForMoney = string.Format("SELECT InvoiceMoney FROM ClientData WHERE ClientName = {0}", clientNameInCommand);
-            SQLiteHelper.ExecuteCommand(commandForMoney);
-            while (SQLiteHelper.dataReader.Read())
-            {
-                moneyList.Add(SQLiteHelper.dataReader.GetDouble(0).ToString());
-            }
+            SQLiteHelper.ReadDateAndInvoiceMoneyFromClientNameOrderByDate(clientName, out dateList, out moneyList);
 
             for (int i = 0; i < dateList.Count; i++)
             {
