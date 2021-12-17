@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/accountstatus.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/cancel.png")]
 
 

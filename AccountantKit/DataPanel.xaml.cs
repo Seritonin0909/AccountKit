@@ -20,16 +20,24 @@ namespace AccountantKit
     /// </summary>
     public partial class DataPanel : UserControl
     {
+        DataWindow owner;
+
         public DataPanel()
         {
             InitializeComponent();
         }
 
-        public DataPanel(string Date, string AmountOfMoney)
+        public DataPanel(string Date, string AmountOfMoney, DataWindow _owner)
         {
             InitializeComponent();
             textBlockDate.Text = Date;
             textBlockAmountOfMoney.Text = AmountOfMoney;
+            owner = _owner;
+        }
+
+        private void ButtonCancel_PreviewMouseDown(object sender, MouseButtonEventArgs e)
+        {
+            owner.stackPanelClientData.Children.Remove(this);
         }
     }
 }

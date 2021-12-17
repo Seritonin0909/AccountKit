@@ -55,7 +55,7 @@ namespace AccountantKit
 
             for (int i = 0; i < dateList.Count; i++)
             {
-                DataPanel dataPanel = new DataPanel(dateList[i], moneyList[i]);
+                DataPanel dataPanel = new DataPanel(dateList[i], moneyList[i], this);
                 stackPanelClientData.Children.Add(dataPanel);
             }
         }
