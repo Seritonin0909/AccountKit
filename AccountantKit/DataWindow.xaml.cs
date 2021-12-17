@@ -59,5 +59,10 @@ namespace AccountantKit
                 stackPanelClientData.Children.Add(dataPanel);
             }
         }
+
+        private void ButtonBack_PreviewMouseDown(object sender, MouseButtonEventArgs e)
+        {
+            this.Close();
+        }
     }
 }
