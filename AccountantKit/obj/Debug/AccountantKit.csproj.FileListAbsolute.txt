@@ -29,3 +29,8 @@ D:\Project\AccountantKit\AccountantKit\obj\Debug\App.baml
 D:\Project\AccountantKit\AccountantKit\obj\Debug\DataWindow.baml
 D:\Project\AccountantKit\AccountantKit\obj\Debug\DataPanel.g.cs
 D:\Project\AccountantKit\AccountantKit\obj\Debug\DataPanel.baml
+D:\Project\AccountantKit\AccountantKit\obj\Debug\ImageButton.g.cs
+D:\Project\AccountantKit\AccountantKit\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Project\AccountantKit\AccountantKit\obj\Debug\ImageButton.baml
+D:\Project\AccountantKit\AccountantKit\bin\Debug\Images\Delete.png
+D:\Project\AccountantKit\AccountantKit\obj\Debug\AccountantKit_Content.g.cs
