@@ -144,20 +144,20 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\Back.png">
+    <Content Include="Images\Back.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
+    </Content>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\Add.png">
+    <Content Include="Images\Add.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Images\Confirm.png" />
+    </Content>
+    <Content Include="Images\Confirm.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\Account.png">
+    <Content Include="Images\Account.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Images\Delete.png">
@@ -165,14 +165,14 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\AccountStatus.png">
+    <Content Include="Images\AccountStatus.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
+    </Content>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\Cancel.png">
+    <Content Include="Images\Cancel.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

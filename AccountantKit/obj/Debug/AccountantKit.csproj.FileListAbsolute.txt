@@ -21,7 +21,6 @@ D:\Project\AccountantKit\AccountantKit\bin\Debug\EntityFramework.xml
 D:\Project\AccountantKit\AccountantKit\bin\Debug\EntityFramework.SqlServer.xml
 D:\Project\AccountantKit\AccountantKit\bin\Debug\System.Data.SQLite.xml
 D:\Project\AccountantKit\AccountantKit\obj\Debug\AccountantKit.csproj.CopyComplete
-D:\Project\AccountantKit\AccountantKit\obj\Debug\AccountantKit.csproj.AssemblyReference.cache
 D:\Project\AccountantKit\AccountantKit\obj\Debug\ListPanel.g.cs
 D:\Project\AccountantKit\AccountantKit\obj\Debug\ListPanel.baml
 D:\Project\AccountantKit\AccountantKit\obj\Debug\DataWindow.g.cs
@@ -34,3 +33,8 @@ D:\Project\AccountantKit\AccountantKit\obj\Debug\GeneratedInternalTypeHelper.g.c
 D:\Project\AccountantKit\AccountantKit\obj\Debug\ImageButton.baml
 D:\Project\AccountantKit\AccountantKit\bin\Debug\Images\Delete.png
 D:\Project\AccountantKit\AccountantKit\obj\Debug\AccountantKit_Content.g.cs
+D:\Project\AccountantKit\AccountantKit\bin\Debug\Images\Back.png
+D:\Project\AccountantKit\AccountantKit\bin\Debug\Images\Add.png
+D:\Project\AccountantKit\AccountantKit\bin\Debug\Images\Account.png
+D:\Project\AccountantKit\AccountantKit\bin\Debug\Images\AccountStatus.png
+D:\Project\AccountantKit\AccountantKit\bin\Debug\Images\Cancel.png

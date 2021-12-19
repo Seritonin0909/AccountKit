@@ -49,7 +49,7 @@
                 <ColumnDefinition/>
                 <ColumnDefinition Width="8*"/>
             </Grid.ColumnDefinitions>
-            <Image x:Name="ButtonBack" Source="Images/Back.png" PreviewMouseDown="ButtonBack_PreviewMouseDown" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <local:ImageButton  x:Name="ButtonBack" ImageUri="Images/Back.png" PreviewMouseDown="ButtonBack_PreviewMouseDown" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center"/>
         </Grid>
     </Grid>
 </Window>

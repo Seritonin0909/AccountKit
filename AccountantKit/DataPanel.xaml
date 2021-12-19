@@ -15,7 +15,7 @@
             </Grid.ColumnDefinitions>
             <TextBlock x:Name="textBlockDate" Grid.Column="0" Style="{StaticResource contentTextStyle}"/>
             <TextBlock x:Name="textBlockAmountOfMoney" Grid.Column="1" Style="{StaticResource contentTextStyle}"/>
-            <Image x:Name="ButtonCancel" Source="Images/Cancel.png" PreviewMouseDown="ButtonCancel_PreviewMouseDown" Grid.Column="2" Width="80" Style="{StaticResource ImageButtonStyle}" />
+            <local:ImageButton  x:Name="ButtonCancel" ImageUri="Images/Cancel.png" PreviewMouseDown="ButtonCancel_PreviewMouseDown" Grid.Column="2" Width="80"/>
         </Grid>
     </Border>
 </UserControl>

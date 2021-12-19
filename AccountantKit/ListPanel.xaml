@@ -17,8 +17,8 @@
             </Grid.ColumnDefinitions>
             <Image Source="Images/Account.png" Grid.Column="0" Height="70" Style="{StaticResource ImageForShowStyle}"/>
             <TextBlock x:Name="textBlockClientName" Grid.Column="1" FontSize="20" Text="企业名称" VerticalAlignment="Center" HorizontalAlignment="Center"  Style="{StaticResource titleLevel2Style}"/>
-            <Image x:Name="ButtonAccountStatus" Source="Images/AccountStatus.png" PreviewMouseDown="ButtonAccountStatus_PreviewMouseDown" Grid.Column="3" Height="40" Style="{StaticResource ImageButtonStyle}"/>
-            <Image x:Name="ButtonDelete" Source="Images/Delete.png" PreviewMouseDown="ButtonDelete_PreviewMouseDown" Grid.Column="4" Height="40" Style="{StaticResource ImageButtonStyle}"/>
+            <local:ImageButton x:Name="ButtonAccountStatus" ImageUri="Images/AccountStatus.png" PreviewMouseDown="ButtonAccountStatus_PreviewMouseDown" Grid.Column="3" Height="40"/>
+            <local:ImageButton x:Name="ButtonDelete" ImageUri="Images/Delete.png" PreviewMouseDown="ButtonDelete_PreviewMouseDown" Grid.Column="4" Height="40"/>
         </Grid>
     </Border>
 </UserControl>
