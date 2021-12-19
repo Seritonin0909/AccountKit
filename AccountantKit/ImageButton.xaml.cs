@@ -18,7 +18,7 @@ namespace AccountantKit
     /// <summary>
     /// ImageButton.xaml 的交互逻辑
     /// </summary>
-    public partial class ImageButton : Button
+    public partial class ImageButton : UserControl
     {
         private static ImageButton button;
 
@@ -41,7 +41,9 @@ namespace AccountantKit
         {
             button = (ImageButton)d;
             string uriString = e.NewValue.ToString();
+            button.mainImage.Stretch = Stretch.Uniform;
             button.mainImage.Source = BitmapFrame.Create(new Uri(uriString, UriKind.Relative));
+
         }
     }
 }
