@@ -1,0 +1,10 @@
+# Build results
+[Oo]bj/
+[Bb]in/
+
+# NuGet packages
+/packages
+
+# 当前用户在解决方案中的工作配置
+/.vs
+
