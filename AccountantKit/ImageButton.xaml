@@ -18,7 +18,8 @@
     </UserControl.Resources>
     <Border x:Name="border" VerticalAlignment="Center" HorizontalAlignment="Center" Style="{StaticResource borderSytle}">
         <Grid Margin="10" VerticalAlignment="Center" HorizontalAlignment="Center">
-            <Image x:Name="mainImage" Grid.Row="0" Stretch="Uniform"/>
+            <Image x:Name="mainImage" Grid.Row="0" Stretch="Uniform"  Source="{Binding RelativeSource={RelativeSource AncestorType=local:ImageButton},Path=ImageUri}"/>
+            
         </Grid>
     </Border>
 </UserControl>

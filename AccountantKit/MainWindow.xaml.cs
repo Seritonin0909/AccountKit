@@ -51,10 +51,5 @@ namespace AccountantKit
         {
             stackPanelDisplayArea.Children.Remove(panel);
         }
-
-        private void ImageButton_PreviewMouseDown(object sender, MouseButtonEventArgs e)
-        {
-            MessageBox.Show("成功");
-        }
     }
 }
