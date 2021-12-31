@@ -46,10 +46,7 @@ namespace AccountantKit
         {
 
         }
-        private void kk()
-        {
 
-        }
         public void DeleteListPanel(ListPanel panel)
         {
             stackPanelDisplayArea.Children.Remove(panel);
