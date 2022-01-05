@@ -34,5 +34,11 @@
             <Setter Property="HorizontalAlignment" Value="Center"/>
         </Style>
         <BitmapImage x:Key="AddPicture" UriSource="Images/Add.png"/>
+        <BitmapImage x:Key="BackPicture" UriSource="Images/Back.png"/>
+        <BitmapImage x:Key="AccountStatusPicture" UriSource="Images/AccountStatus.png"/>
+        <BitmapImage x:Key="CancelPicture" UriSource="Images/Cancel.png"/>
+        <BitmapImage x:Key="ConfirmPicture" UriSource="Images/Confirm.png"/>
+        <BitmapImage x:Key="DeletePicture" UriSource="Images/Delete.png"/>
+        <BitmapImage x:Key="AccountPicture" UriSource="Images/Account.png"/>
     </Application.Resources>
 </Application>
