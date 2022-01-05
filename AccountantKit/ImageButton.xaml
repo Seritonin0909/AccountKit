@@ -11,7 +11,14 @@
             <Setter Property="Template">
                 <Setter.Value>
                     <ControlTemplate TargetType="local:ImageButton">
-                        <Image x:Name="mainImage" Source="{TemplateBinding ImageUri}"/>
+                        <Border x:Name="border" CornerRadius="10">
+                            <Image x:Name="mainImage" Source="{TemplateBinding ImageUri}"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" TargetName="border" Value="cyan"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
                     </ControlTemplate>
                 </Setter.Value>
             </Setter>
