@@ -29,7 +29,7 @@
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="9*"/>
             </Grid.ColumnDefinitions>
-            <local:ImageButton x:Name="AddButton" ImageUri="Images/Add.png" Grid.Column="0" Width="30" PreviewMouseDown="AddButton_PreviewMouseDown"/>
+            <local:ImageButton x:Name="AddButton" ImageUri="{StaticResource AddPicture}" Grid.Column="0" Width="30" PreviewMouseDown="AddButton_PreviewMouseDown"/>
         </Grid>
     </Grid>
 </Window>

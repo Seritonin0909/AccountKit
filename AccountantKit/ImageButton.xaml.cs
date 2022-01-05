@@ -18,32 +18,21 @@ namespace AccountantKit
     /// <summary>
     /// ImageButton.xaml 的交互逻辑
     /// </summary>
-    public partial class ImageButton : UserControl
+    public partial class ImageButton : Button
     {
-        private static ImageButton button;
-
         public ImageButton()
         {
             InitializeComponent();
         }
 
-        public string ImageUri
+        public ImageSource ImageUri
         {
-            get { return (string)GetValue(ImageUriProperty); }
+            get { return (ImageSource)GetValue(ImageUriProperty); }
             set { SetValue(ImageUriProperty, value); }
         }
 
         // Using a DependencyProperty as the backing store for ImageUri.  This enables animation, styling, binding, etc...
         public static readonly DependencyProperty ImageUriProperty =
-            DependencyProperty.Register("ImageUri", typeof(string), typeof(ImageButton), new PropertyMetadata());
-
-        public static void ChangeImageSource(DependencyObject d, DependencyPropertyChangedEventArgs e)
-        {
-            //原本打算用回调事件来做，后来改成用Binding来做
-            button = (ImageButton)d;
-            string uriString = e.NewValue.ToString();
-            button.mainImage.Stretch = Stretch.Uniform;
-            button.mainImage.Source = BitmapFrame.Create(new Uri(uriString, UriKind.Relative));
-        }
+            DependencyProperty.Register("ImageUri", typeof(ImageSource), typeof(ImageButton), new PropertyMetadata());
     }
 }

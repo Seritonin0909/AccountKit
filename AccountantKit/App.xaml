@@ -33,5 +33,6 @@
             <Setter Property="VerticalAlignment" Value="Center"/>
             <Setter Property="HorizontalAlignment" Value="Center"/>
         </Style>
+        <BitmapImage x:Key="AddPicture" UriSource="Images/Add.png"/>
     </Application.Resources>
 </Application>

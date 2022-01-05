@@ -149,9 +149,9 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Images\Add.png">
+    <Resource Include="Images\Add.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    </Resource>
     <Content Include="Images\Confirm.png" />
   </ItemGroup>
   <ItemGroup>
