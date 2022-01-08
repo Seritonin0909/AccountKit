@@ -39,7 +39,7 @@ namespace AccountantKit
         private void ButtonAccountStatus_PreviewMouseDown(object sender, MouseButtonEventArgs e)
         {
             DataWindow dataWindow = new DataWindow(clientName);
-            dataWindow.ShowDialog();
+            WindowHelper.ShowNewWindow(this.owner, dataWindow);
         }
 
         private void ButtonDelete_PreviewMouseDown(object sender, MouseButtonEventArgs e)

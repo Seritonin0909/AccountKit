@@ -49,7 +49,8 @@ namespace AccountantKit
 
         private void ButtonBack_PreviewMouseDown(object sender, MouseButtonEventArgs e)
         {
-            this.Close();
+            //this.Close();
+            WindowHelper.BackToOldWindow(this);
         }
     }
 }

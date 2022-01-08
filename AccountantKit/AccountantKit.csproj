@@ -87,6 +87,7 @@
       <DependentUpon>ListPanel.xaml</DependentUpon>
     </Compile>
     <Compile Include="SQLiteHelper.cs" />
+    <Compile Include="WindowHelper.cs" />
     <Page Include="DataPanel.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
